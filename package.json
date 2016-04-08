@@ -1,0 +1,76 @@
+{
+  "name": "angular2-minimalist-starter",
+  "version": "0.0.0",
+  "description": "A Minimalist Starter kit for Angular2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerpadilla/angular2-minimalist-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerpadilla/angular2-minimalist-starter/issues"
+  },
+  "scripts": {
+    "postinstall": "node node_modules/typings/dist/bin.js install",
+    "start": "gulp serve",
+    "start.prod": "gulp serve --env=prod",
+    "build": "gulp build",
+    "build.prod": "gulp build --env=prod",
+    "test": "gulp test"
+  },
+  "author": "Roger Padilla <rogerpadilla>",
+  "license": "MIT",
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "fs-extra": "^0.26.7",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sequence": "^0.4.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-template": "^3.1.0",
+    "gulp-tslint": "^4.3.4",
+    "gulp-tslint-stylish": "^1.1.1",
+    "gulp-uglify": "^1.5.3",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "open": "^0.0.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "remap-istanbul": "^0.5.1",
+    "run-sequence": "^1.1.5",
+    "slash": "^1.0.0",
+    "through2": "^2.0.1",
+    "tiny-lr": "^0.2.1",
+    "ts-node": "^0.7.1",
+    "tslint": "^3.7.1",
+    "typescript": "^1.8.9",
+    "typescript-register": "^1.1.0",
+    "typings": "^0.7.12",
+    "yargs": "^4.4.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.13",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "connect-livereload": "^0.5.4",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "express": "^4.13.4",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "^0.19.25",
+    "zone.js": "^0.6.9",
+	"mysql": " ^2.10.2"
+  },
+  "engines": {
+    "node": ">= 4.2.1 < 6"
+  }
+}

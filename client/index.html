@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Minimalist starter - Angular 2</title>
+  <base href="<%= APP_ROOT %>">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- lib:css -->
+  <!-- endinject -->
+
+</head>
+
+<body>
+
+  <!--[if lte IE 9]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <app>Loading...</app>
+
+  <!-- lib:js -->
+  <!-- endinject -->
+
+  <script>
+    window.IS_PROD = '<%= IS_PROD %>';
+    System.import('app.bundle.js').then(function () {
+      return System.import('boot');
+    }).catch(console.error.bind(console));
+  </script>
+
+</body>
+
+</html>

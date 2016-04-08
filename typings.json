@@ -1,0 +1,29 @@
+{
+  "name": "angular2-minimalist-starter",
+  "ambientDependencies": {
+    "bluebird": "github:DefinitelyTyped/DefinitelyTyped/bluebird/bluebird.d.ts#dd328830dddffbe19e9addd7cf8532cbd3600816",
+    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "gulp": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "gulp-if": "github:DefinitelyTyped/DefinitelyTyped/gulp-if/gulp-if.d.ts#f62efc0d21f9029e84bf1cd9c07ec9c17a3c5690",
+    "gulp-shell": "github:DefinitelyTyped/DefinitelyTyped/gulp-shell/gulp-shell.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "gulp-sourcemaps": "github:DefinitelyTyped/DefinitelyTyped/gulp-sourcemaps/gulp-sourcemaps.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "gulp-uglify": "github:DefinitelyTyped/DefinitelyTyped/gulp-uglify/gulp-uglify.d.ts#ba956a3e6e8ebb82d33548209f793234efac44a2",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd",
+    "karma": "github:DefinitelyTyped/DefinitelyTyped/karma/karma.d.ts#02dd2f323e1bcb8a823269f89e0909ec9e5e38b5",
+    "log4js": "github:DefinitelyTyped/DefinitelyTyped/log4js/log4js.d.ts#7554cff7c4dd34decc2f3dc0d711a6c288174eee",
+    "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#cb5206a8ac1c9a3ddfd126f5ecea6729b2361452",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "orchestrator": "github:DefinitelyTyped/DefinitelyTyped/orchestrator/orchestrator.d.ts#422b006d39dd37fc667ce5464967ee3ff6135092",
+    "q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+    "run-sequence": "github:DefinitelyTyped/DefinitelyTyped/run-sequence/run-sequence.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "source-map": "github:DefinitelyTyped/DefinitelyTyped/source-map/source-map.d.ts#1c572762b93d4b059d89339867edf54946176361",
+    "systemjs": "github:DefinitelyTyped/DefinitelyTyped/systemjs/systemjs.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0",
+    "through2": "github:DefinitelyTyped/DefinitelyTyped/through2/through2.d.ts#48f20e97bfaf70fc1a9537b38aed98e9749be0ae",
+    "uglify-js": "github:DefinitelyTyped/DefinitelyTyped/uglify-js/uglify-js.d.ts#51b587292f2ba85d68939d9c59cf7fa745a6173e",
+    "vinyl": "github:DefinitelyTyped/DefinitelyTyped/vinyl/vinyl.d.ts#4ead81cc68ab1a2cd824de4394e1bda72b1b9f92",
+    "yargs": "github:DefinitelyTyped/DefinitelyTyped/yargs/yargs.d.ts#a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+  }
+}
