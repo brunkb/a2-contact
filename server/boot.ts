@@ -5,6 +5,7 @@ import {resolve} from 'path';
 
 import {LIVE_RELOAD_PORT, PATHS, PORT, APP_ROOT} from '../tools/config';
 import * as contactRouter from './contact/router';
+import * as kenpoRouter from './router';
 
 const INDEX_DEST_PATH = resolve(PATHS.cwd, PATHS.dest.dist.base, 'index.html');
 
@@ -22,6 +23,8 @@ server.get('/api/**', (req, res, next) => {
 });
 
 server.use('/api/contact', contactRouter);
+
+server.use('/api/kenpo', kenpoRouter);
 
 server.get(`${APP_ROOT}*`, (req, res) => {
   res.sendFile(INDEX_DEST_PATH);

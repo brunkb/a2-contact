@@ -1,22 +1,11 @@
 //import {mysql} from 'mysql';
+
 import {Contact} from '../../client/models/dto';
 import {ObjectUtil} from '../../client/utils/object.util';
- let mysql = require('mysql');
+import {BaseService} from './base.service';
+let mysql = require('mysql');
  
-export class ContactService {
- 
-  
-  getConnection(): any {
-		var connection = mysql.createConnection({
-		host     : 'localhost',
-		user     : 'root',
-		password : 'BB2016',
-		database : 'demo'
-	});
-  
-    return connection;
-  
-  }
+export class ContactService extends BaseService {
 
   createOne(data: Contact): Promise<Contact> {
     var con = this.getConnection();
@@ -36,7 +25,7 @@ export class ContactService {
 	 return Promise.resolve(contact);
 	
   }
-
+    
   /*updateOne(data: Contact): Promise<Contact> {
     return this.findOneById(data._id).then((contact: Contact) => {
       ObjectUtil.merge(contact, data);

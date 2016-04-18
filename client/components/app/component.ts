@@ -20,7 +20,7 @@ import {Notification} from '../../models/dto';
 })
 @RouteConfig([
   { path: '/', component: HomeComponent, as: 'Home', useAsDefault: true },
-  { path: '/contact', component: ContactComponent, as: 'Contact' }
+  { path: '/contact', component: ContactComponent, as: 'Belts' }
 ])
 export class AppComponent {
 

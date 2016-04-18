@@ -31,5 +31,4 @@ router.post('/', (req, res) => {
     .then((contact: Contact) => res.send(contact), (err: any) => sendError(res, err));
 });*/
 
-
 export = router;

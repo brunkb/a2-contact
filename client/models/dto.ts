@@ -17,3 +17,22 @@ export interface Notification {
   type: string;
   data?: any;
 }
+
+export interface IBelt {
+  id: number;
+  color: string;
+}
+
+export class Belt implements IBelt {
+
+    constructor(public id: number, public color: string ) {
+        
+    }
+
+}
+
+export interface Attack {
+  id: number;
+  description: string;
+  insertDate: any;
+}
